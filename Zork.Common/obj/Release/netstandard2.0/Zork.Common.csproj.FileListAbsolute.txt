@@ -1,0 +1,10 @@
+C:\Dev\Students\CH18\Aryna.Ou\TechDesign1\Zork\Zork\Zork.Common\bin\Release\netstandard2.0\Zork.Common.deps.json
+C:\Dev\Students\CH18\Aryna.Ou\TechDesign1\Zork\Zork\Zork.Common\bin\Release\netstandard2.0\Zork.Common.dll
+C:\Dev\Students\CH18\Aryna.Ou\TechDesign1\Zork\Zork\Zork.Common\bin\Release\netstandard2.0\Zork.Common.pdb
+C:\Dev\Students\CH18\Aryna.Ou\TechDesign1\Zork\Zork\Zork.Common\obj\Release\netstandard2.0\Zork.Common.csproj.AssemblyReference.cache
+C:\Dev\Students\CH18\Aryna.Ou\TechDesign1\Zork\Zork\Zork.Common\obj\Release\netstandard2.0\Zork.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Students\CH18\Aryna.Ou\TechDesign1\Zork\Zork\Zork.Common\obj\Release\netstandard2.0\Zork.Common.AssemblyInfoInputs.cache
+C:\Dev\Students\CH18\Aryna.Ou\TechDesign1\Zork\Zork\Zork.Common\obj\Release\netstandard2.0\Zork.Common.AssemblyInfo.cs
+C:\Dev\Students\CH18\Aryna.Ou\TechDesign1\Zork\Zork\Zork.Common\obj\Release\netstandard2.0\Zork.Common.csproj.CoreCompileInputs.cache
+C:\Dev\Students\CH18\Aryna.Ou\TechDesign1\Zork\Zork\Zork.Common\obj\Release\netstandard2.0\Zork.Common.dll
+C:\Dev\Students\CH18\Aryna.Ou\TechDesign1\Zork\Zork\Zork.Common\obj\Release\netstandard2.0\Zork.Common.pdb

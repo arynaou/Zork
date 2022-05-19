@@ -1,0 +1,150 @@
+﻿{
+	"StartingLocation": "West of House",
+	"WelcomeMessage": "Welcome to Zork!",
+	"EndingMessage": "Thank you for playing!",
+	"World": {
+		"Rooms": [
+			{
+				"Name": "North of House",
+				"Description": "You are facing the north side of a white house. There is no door here, and all the windows are barred.",
+				"RoomNum": 0,
+				"Neighbors": {
+					"NORTH": "Forest 2",
+					"EAST": "Behind House",
+					"WEST": "West of House"
+				},
+				"ItemList": [],
+				"Enemy": {
+					"Name": "Kitten",
+					"HitPoints": 10,
+					"MaxHitPoints": 10,
+					"DefeatMessage": "You defeat a Kitten? WHAT A MONSTER!",
+					"DefeatScore": -1,
+					"EnemyNum": 1
+				}
+			},
+			{
+				"Name": "Clearing",
+				"Description": "You are in a clearing, with a forest surrounding you on the west and south.",
+				"RoomNum": 1,
+				"Neighbors": {
+					"WEST": "Forest 2",
+					"SOUTH": "Forest 3"
+				},
+				"ItemList": [],
+				"Enemy": {}
+			},
+			{
+				"Name": "West of House",
+				"Description": "This is an open field west of a white house, with a boarded front door.",
+				"RoomNum": 2,
+				"Neighbors": {
+					"SOUTH": "South of House",
+					"NORTH": "North of House",
+					"WEST": "Forest 1"
+				},
+				"ItemList": [
+					{
+						"Name": "Apple",
+						"Damage": 0,
+						"Eatable": "TRUE",
+						"ItemNum": 0
+					},
+					{
+						"Name": "Banana",
+						"Damage": 0,
+						"Eatable": "TRUE",
+						"ItemNum": 1
+					},
+					{
+						"Name": "Knife",
+						"Damage": 10,
+						"Eatable": "FALSE",
+						"ItemNum": 2
+					},
+					{
+						"Name": "Rifle",
+						"Damage": 40,
+						"Eatable": "FALSE",
+						"ItemNum": 3
+					}
+				],
+				"Enemy": {
+					"Name": "Goblin",
+					"HitPoints": 50,
+					"MaxHitPoints": 50,
+					"DefeatMessage": "You defeat a Goblin, Hallelujah!",
+					"DefeatScore": 10,
+					"EnemyNum": 0
+				}
+			},
+			{
+				"Name": "Behind House",
+				"Description": "You are behind the white house. In one corner of the house there is a small window which is slightly ajar.",
+				"RoomNum": 3,
+				"Neighbors": {
+					"SOUTH": "South of House",
+					"NORTH": "North of House"
+				},
+				"ItemList": [],
+				"Enemy": {}
+			},
+			{
+				"Name": "South of House",
+				"Description": "You are facing the south side of a white house. There is no door here, and all the windows are barred.",
+				"RoomNum": 4,
+				"Neighbors": {
+					"EAST": "Behind House",
+					"WEST": "West of House"
+				},
+				"ItemList": [],
+				"Enemy": {}
+			},
+			{
+				"Name": "Forest 1",
+				"Description": "This is a forest, with trees in all directions around you.",
+				"RoomNum": 5,
+				"Neighbors": {
+					"SOUTH": "Forest 3",
+					"EAST": "West of House"
+				},
+				"ItemList": [],
+				"Enemy": {}
+			},
+			{
+				"Name": "Forest 2",
+				"Description": "This is a dimly lit forest. One particularly large tree with some low branches stands here.",
+				"RoomNum": 6,
+				"Neighbors": {
+					"UP": "Up a Tree",
+					"SOUTH": "Clearing",
+					"EAST": "Clearing"
+				},
+				"ItemList": [],
+				"Enemy": {}
+			},
+			{
+				"Name": "Forest 3",
+				"Description": "This is a dimly lit forest, with large trees all around. To the east, there appears to be sunlight.",
+				"RoomNum": 7,
+				"Neighbors": {
+					"NORTH": "South of House",
+					"EAST": "Clearing"
+				},
+				"ItemList": [],
+				"Enemy": {}
+			},
+			{
+				"Name": "Up a Tree",
+				"Description": "You are about 10 feet above the ground nestled among some large branches.",
+				"RoomNum": 8,
+				"Neighbors": {
+					"DOWN": "Forest 2"
+				},
+				"ItemList": [],
+				"Enemy": {}
+			}
+		]
+	}
+}
+
